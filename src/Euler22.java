@@ -28,7 +28,7 @@ public class Euler22 {
 		
 		//파일을 읽어서 arrayList에 담기
 		try {
-			fis = new FileInputStream("D:/00-job/p022_names.txt");
+			fis = new FileInputStream("p022_names.txt");
 			
 			int readData = -1;
 			while((readData = fis.read()) != -1) {
@@ -69,13 +69,13 @@ public class Euler22 {
 		FileWriter fw;
 		FileWriter fw1;
 		try {
-			fw = new FileWriter("D:/00-job/p022_names2.txt");
+			fw = new FileWriter("p022_names2.txt");
 			for(int j = 0; j < arr2.size(); j++) {
 				fw.write(arr2.get(j) + "\n");
 			}
 			fw.close();
 			
-			fw1 = new FileWriter("D:/00-job/p022_names3.txt");
+			fw1 = new FileWriter("p022_names3.txt");
 			for(int j = 0; j < arr.size(); j++) {
 				fw1.write(arr.get(j) + "\n");
 			}			
