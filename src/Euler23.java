@@ -17,6 +17,8 @@ public class Euler23 {
 
 	public static void main(String[] args) {
 		
+		long startTime = System.currentTimeMillis();
+		
 		ArrayList<Integer> arrAb = new ArrayList<>();
 		int[] arrNum = new int[28124];
 		int sum = 0;
@@ -48,6 +50,9 @@ public class Euler23 {
 		}
 		
 		System.out.println(sumOfAb);
+		
+		long endTime = System.currentTimeMillis();
+		System.out.println(endTime - startTime );
 	}
 	
 	//abundant number 여부확인
