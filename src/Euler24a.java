@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class testEx1 {
+public class Euler24a {
 
 	public static void main(String[] args) {
 		
